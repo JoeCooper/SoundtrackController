@@ -22,7 +22,7 @@ namespace NobleMuffins.SoundtrackPlus {
 				GameObject.DontDestroyOnLoad(gameObject);
 			}
 			else if(Instance != this) {
-				GameObject.DestroyImmediate(this);
+				GameObject.Destroy(gameObject);
 			}
 		}
 
